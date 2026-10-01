@@ -1,0 +1,18 @@
+{
+  "briefVersion": "2026-10-01-v6",
+  "hypothesis": "Describe how agents will collaborate and why that could improve investment research.",
+  "architectures": [],
+  "resourceMatching": "Compare a capable single agent, a single agent with extra review/compute, and your multi-agent approach. Explain how model capability, tools, sources and actual resource use affect the comparison.",
+  "cases": [],
+  "caseSelectionRationale": "Explain the questions, companies and sampling choices.",
+  "developmentFinalSplit": "Explain how you avoid tuning to final answers; a held-back set is one option, not a required method.",
+  "qualityMeasures": [],
+  "measurementValidation": "Explain reference evidence, judge checks and manual audits.",
+  "repetitionsAndUncertainty": "Choose repetitions or another justified noise-control method.",
+  "failurePolicy": "Explain how failed and incomplete runs enter the results.",
+  "usageAccounting": "Record spend, tokens, tool calls and elapsed time.",
+  "informationCutoffsAndLeakage": "Explain source eligibility, what models may already know from training, how this could affect results, and how your design addresses it and its remaining limitations.",
+  "analysisPlan": "Define how results support or contradict the hypothesis.",
+  "limitations": [],
+  "frozenPlanCommit": "Record the commit used before final evaluation."
+}

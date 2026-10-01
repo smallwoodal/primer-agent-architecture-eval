@@ -1,0 +1,13 @@
+{
+  "name": "primer-agent-architecture-eval",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "corpus:verify": "node scripts/corpus.mjs verify",
+    "corpus:manifest": "node scripts/corpus.mjs build",
+    "search": "node scripts/search.mjs"
+  }
+}
